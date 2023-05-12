@@ -204,11 +204,11 @@ function App() {
             <div className="piatto">
               <img src="/1.jpeg"></img>
             </div>
-            <div className="piatto"><img src="/2.jpeg"></img></div>
-            <div className="piatto"><img src="/3.jpeg"></img></div>
-            <div className="piatto"><img src="/4.jpeg"></img></div>
-            <div className="piatto"><img src="/5.jpeg"></img></div>
-            <div className="piatto"><img src="/6.jpeg"></img></div>
+            <div className="piatto"><img src="2.jpeg"></img></div>
+            <div className="piatto"><img src="3.jpeg"></img></div>
+            <div className="piatto"><img src="4.jpeg"></img></div>
+            <div className="piatto"><img src="5.jpeg"></img></div>
+            <div className="piatto"><img src="6.jpeg"></img></div>
           </div>
         </div>
 
