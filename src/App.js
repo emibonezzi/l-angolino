@@ -202,7 +202,7 @@ function App() {
           <div className="paragraph">Le immagini parlano più delle parole: scopri la nostra galleria fotografica e lasciati conquistare dai nostri piatti.</div>
           <div className="gallery">
             <div className="piatto">
-              <img src="/1.jpeg"></img>
+              <img src="1.jpeg"></img>
             </div>
             <div className="piatto"><img src="2.jpeg"></img></div>
             <div className="piatto"><img src="3.jpeg"></img></div>
