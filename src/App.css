@@ -18,6 +18,10 @@ body {
   font-family: 'Comme', sans-serif;
 }
 
+body a:link, a:visited {
+  all:unset;
+}
+
 nav {
   display: flex;
   justify-content: center;
