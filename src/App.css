@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@100&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: white;
+  font-family: 'Comme', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  height: 50px;
+  background-color: transparent;
+  z-index: 999;
+  color: white;
+}
+
+nav a {
+  color: white!important;
+  cursor:pointer!important;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 100%;
+  gap: 2rem;
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+  background: white;
+  border: black 2px solid;
+  z-index: 999;
+}
+
+footer span {
+  display: flex;
+  gap: 0.5rem;
+}
+
+
+.bg-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.logo {
+  z-index: 999;
+  opacity: 0.8;
+}
+
+.logo img {
+  width: 250px;
+  margin-left: -25px;
+
+}
+
+.title span {
+  font-size: 30px;
+  font-family: 'Castoro Titling';
+  letter-spacing: 5px;
+}
+
+.title {
+  margin-left: -60px;
+  animation-name: slideIn;
+  animation-duration: 2.5s;
+}
+
+.container {
+  animation-name: fadeIn2;
+  animation-duration: 2.5s;
+  z-index: 998;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width:900px) {
+  .title {
+    margin-left: -30px;
+  }
+
+
+  .container,
+  .container img {
+    width: 90%;
+  }
+
+  .container img {
+    margin-left: 0;
+  }
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.6;
+  }
+}
+
+@keyframes fadeIn2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    margin-left: -100px;
+  }
+
+  to {
+    margin-left: -60px;
+  }
+}
+
+
+main {
+  background-color: white;
+  padding: 5rem;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursive {
+  color: white;
+  font-weight: lighter;
+  font-size: 7vw;
+  font-family: 'Great Vibes', cursive;
+  padding-right: 1rem;
+  text-align: center;
+  z-index: 999;
+  animation-name: slideIn;
+  animation-duration: 2.5s;
+  margin-left: -60px;
+}
+
+.relax {
+  font-weight: normal;
+  font-size: 6vw;
+  color: white;
+  z-index: 99;
+  font-family: 'Castoro Titling', cursive;
+  padding-left: 0;
+}
+
+.border {
+  height: 13.5vh;
+  border-right: white 2px solid;
+  animation-name: border;
+  animation-duration: 2.5s;
+}
+
+@keyframes border {
+  from {
+    height: 0vh;
+  }
+
+  to {
+    height: 13.5vh;
+  }
+}
+
+.text-container {
+  display: grid;
+  grid-template-columns: 4fr 2fr 1fr;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media (max-width:900px) {
+  .text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  footer {
+    gap: 1rem;
+  }
+
+  .img-element img {
+    width: 100%;
+  }
+
+  .heading span {
+    font-size: 26px !important;
+  }
+
+  .paragraph span {
+    font-size: 14px !important;
+  }
+
+  .heading {
+    padding-bottom: 0;
+    border-bottom: 2px solid black;
+  }
+
+  .paragraph {
+    align-items: unset !important;
+    border: none !important;
+    padding-left: 0 !important;
+    height: fit-content !important;
+  }
+
+}
+
+@media (min-width:900px) {
+  .paragraph {
+    margin-left: 20px;
+  }
+}
+
+.heading {
+  animation-name: shake;
+  animation-duration: 1s;
+  overflow: hidden;
+}
+
+.heading span {
+  font-family: 'Castoro', serif;
+  font-size: 75px;
+  overflow: hidden;
+}
+
+.paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 250px;
+  border-left: 2px solid black;
+  padding-left: 50px;
+}
+
+.paragraph span {
+  font-family: 'Open Sans';
+}
+
+.img-element {}
+
+/* .img-element img {
+  position:relative;
+  animation-name:enters;
+  animation-duration:2.5s;
+} */
+
+
+@keyframes enters {
+  from {
+    right: -500px;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+@keyframes enters2 {
+  from {
+    left: -500px;
+  }
+
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes shake {
+  from {
+    padding-left: 25px;
+    padding-top: 25px;
+  }
+
+  to {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+}
+
+.hidden {
+  position: relative;
+  right: -50%;
+  transition: all 2s;
+}
+
+.show {
+  right: 0;
+}
+
+@media (min-width:900px) {
+  .hidden.heading {
+    position: relative;
+    left: -50%;
+    transition: all 2s;
+  }
+
+  .show.heading {
+    left: 0;
+  }
+}
+
+
+.paragraph i {
+  font-size: 30px;
+  text-align: center;
+  color: #DD2A7B
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-bottom: 20px;
+}
+
+.social-container a:link {
+  color: #DD2A7B;
+}
+
+
+.social-container a:visited {
+  color: #DD2A7B;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  width:100vw;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.piatto img {
+  width: 100%;
+  height: 100%;
+  border: white solid 2px;
+  opacity: 0.6;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.piatto img:hover {
+  opacity: 1;
+}
+
+.piatto {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: black;
+}
+
+.piatto-name {
+  font-size: 3vw;
+  text-align: center;
+  position: absolute;
+  left:2%;
+  top:50%;
+  font-weight: bold;
+  color: white;
+  border: white 2px solid;
+  
+}
+
+.gallery-container .paragraph {
+  border: none;
+  padding: 0;
+  font-size: large;
+}
+
+@media (max-width:900px) {
+  .gallery-container .paragraph {
+    padding: 3rem 0;
+    font-size: 14px !important;
+  }
+}
+
+.paragraph button {
+  background-color: transparent;
+  border: black 1px solid;
+  display: block;
+  margin-top: 30px;
+
+  cursor: pointer!important;
+}
+
+.course {
+  
+}
+
+.menu-container .heading {
+  text-align: center;
+  padding-top: 50px;
+  border-bottom: 2px solid black;
+}
+
+.menu-page {
+  margin-top: 2rem;
+}
+
+.menu-container button {
+  background-color: transparent;
+  display: block;
+  font-size: large;
+  cursor: pointer!important;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+
+
+.course {
+  margin-top: 5rem;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course h1 {
+  font-family: 'Castoro Titling';
+}
+
+.title-price {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width:900px) {
+  main {
+    padding: 2rem!important;
+  }
+
+  .menu-page {
+    width: 100%;
+  }
+
+  .course h1 {
+    font-size:15px!important;
+  }
+
+}
+
+@media (min-width:900px) {
+  .currentCourse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .course {
+    margin: 5rem;
+  }
+}
+
+.currentCourse {
+  padding-bottom:5rem;
+}
+
+.courses a:visited, a:link {
+  all:unset;  
+}
+
+.prenota-container .heading {
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+.contact-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 2rem ;
+}
+
+.contact {
+  margin-top: 3.5rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-buttons a:link, a:visited {
+  font-size: 30px;
+  color:black;
+}
+
+.prenota-container span:last-child{
+  margin-bottom: 4rem;
+}
+
+.menu-page .heading {
+  border-bottom: none!important;;
+}
+
+.menu-page {
+  padding-top: 5rem;
+}

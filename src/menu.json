@@ -1,0 +1,114 @@
+{
+    "Antipasti": [
+        {
+            "name": "Vitello tonnato",
+            "price": 10,
+            "description": "vitello cotto a bassa temperatura, salsa tonnata e capperi"
+        },
+        {
+            "name": "Fiori di zucca",
+            "price": 7,
+            "description": "fritti in pastella"
+        },
+        {
+            "name": "Crostoni",
+            "price": 8,
+            "description": "crostone di pane pugliese, mix ai 3 pomodori e basilico fresco, capperi, aglio per profumare e olive.. stracciatella di burrata in uscita"
+        },
+        {
+            "name": "Tartare",
+            "price": 12,
+            "description": "tartare di manzo, con base di pane carasau, stracciatella di burrata e bagnetto."
+        }
+    ],
+    "Primi": [
+        {
+            "name": "Gnocchetti alla salsiccia",
+            "price": 10,
+            "description": "gnocchetti di patate con salsiccia battuta e rosolata in sughetto ai 3 pomodori e basilico.. grattata di ricotta salata in uscita"
+        },
+        {
+            "name": "Carbonara di carciofi",
+            "price": 10,
+            "description": "tagliolini all’uovo, carciofi spadellati e crema di pecorino, pepe nero e tuorli d’uovo pasta gialla"
+        },
+        {
+            "name": "Ravioli al limone",
+            "price": 10,
+            "description": "ravioli freschi di gastronomia con farcia al limone e ricotta. Mantecato con burro alla salvi e pepe nero. Stracciatella di burrata e scorza di limone in uscita."
+        }
+    ],
+    "Secondi": [
+        {
+            "name": "Finocchi gratinati",
+            "price": 10,
+            "description": "Finocchi gratinati in terrina con besciamella al pepe nero e grana, prosciutto cotto alta qualità e provola affumicata gratinatura al parmigiano."
+        },
+        {
+            "name": "Pollo speziato",
+            "price": 13,
+            "description": "petto di pollo cotto a bassa temperatura. Il contorno è compreso nel prezzo, sceglilo nella pagina seguente. Consigliata caponata."
+        },
+        {
+            "name": "Tagliata di manzo",
+            "price": 16,
+            "description": "carne di manzo fresca di macelleria locale. circa 300g, il contorno è compreso nel prezzo, sceglilo nella pagina seguente. Consigliate patate al forno."
+        }
+    ],
+    "American Lunch": [
+        {
+            "name": "Home made",
+            "price": 12,
+            "description": "pane bun fatto in casa, hamburger di manzo, bacon croccante, cheddar fuso, insalata gentile, pomodoro rosso, maionese e ketchup. SERVITO CON PATATINE DIPPERS"
+        },
+        {
+            "name": "Pulastar",
+            "price": 12,
+            "description": "pollo croccante, insalata gentile, grana e salsa Caesar. SERVITO CON PATATINE DIPPERS"
+        },
+        {
+            "name": "Club sandwich",
+            "price": 9,
+            "description": "pollo spadellato, pomodoro rosso, insalata gentile fontina, salsa rosa e maionese. su richiesta possiamo servirlo con prosciutto cotto anziché pollo"
+        }
+    ],
+    "Contorni": [
+        {
+            "name": "Patate al forno",
+            "price": 4,
+            "description": "patate fatte in casa con aromi, sale e pepe consigliate per la tagliata di manzo"
+        },
+        {
+            "name": "Insalatina",
+            "price": 4,
+            "description": "misticanza e pomodorini da condire a piacere"
+        },
+        {
+            "name": "Caponata di verdure",
+            "price": 4,
+            "description": "dadolata di verdure, pinoli e uvetta cotti in un pizzico di di pomodoro. Consigliata come accompagnamento per il pollo."
+        },
+        {
+            "name": "Dippers",
+            "price": 4,
+            "description": "patatine fritte"
+        }
+    ],
+    "Insalate": [
+        {
+            "name": "Caesar salad",
+            "price": 8,
+            "description": "Insalata, straccetti di pollo, pomodorini, scaglie di grana crostini e salsa caesar"
+        },
+        {
+            "name": "Mediterranea",
+            "price": 9,
+            "description": "Misticanza, pomodoro secco, olive, stracciatella di burata e tarallo pugliese sbriciolato"
+        },
+        {
+            "name": "Insalata Valtellina",
+            "price": 9,
+            "description": "Insalata, rucola, granella di noci, bresaola e scaglie di grana"
+        }
+    ]
+}
