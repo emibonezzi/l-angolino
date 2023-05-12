@@ -169,7 +169,7 @@ function App() {
           <div className="paragraph">
             <span> Siamo un ristorante che crede nella <strong>qualità</strong> delle realtà locali e nella collaborazione tra le piccole imprese. Per questo motivo, la maggior parte dei nostri prodotti e delle materie prime proviene da attività locali. Ci impegniamo a garantire la massima qualità dei nostri piatti, utilizzando <strong>solo ingredienti freschi e di stagione.</strong> Il nostro obiettivo è offrire un'esperienza culinaria unica, che soddisfi i gusti e le esigenze di ogni cliente.</span> </div>
           <div ref={imgRef} className="img-element">
-            <img className="hidden" src="https://i.ibb.co/zRbvbJS/burg-d.png"></img>
+            <img className="hidden" src="burg-d.png"></img>
           </div>
         </div>
         <div className="text-container">
@@ -179,7 +179,7 @@ function App() {
           <div className="paragraph">
             <span> Potrete gustare piatti della tradizione italiana rivisitati in chiave moderna, utilizzando solo ingredienti di alta qualità provenienti da attività locali. <a href="#menu"><button>Sfoglia il menù </button></a></span> </div>
           <div className="img-element">
-            <img className='hidden' src="https://i.ibb.co/4JXWWNf/spaghetti.png"></img>
+            <img className='hidden' src="spaghetti.png"></img>
           </div>
         </div>
         <div className="text-container">
@@ -194,7 +194,7 @@ function App() {
             </div>
             <span>Vieni a scoprire le ultime novità del nostro ristorante seguendoci sui social media! Su Instagram puoi rimanere sempre aggiornato sulle nostre iniziative ed eventi.</span> </div>
           <div className="img-element">
-            <img className='hidden' src="/steak.png"></img>
+            <img className='hidden' src="steak.png"></img>
           </div>
         </div>
         <div className="gallery-container">
@@ -225,7 +225,7 @@ function App() {
               <a href=""><i className="fa-solid fa-inbox"></i></a>
             </div><span>Siamo pronti ad accogliervi con il nostro meglio e a farvi vivere un'esperienza culinaria unica!</span></div>
           <div ref={imgRef} className="img-element">
-            <img className="hidden" src="https://i.ibb.co/zRbvbJS/burg-d.png"></img>
+            <img className="hidden" src="burg-d.png"></img>
           </div>
         </div>
       </main>
